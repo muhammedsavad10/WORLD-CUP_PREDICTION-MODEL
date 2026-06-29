@@ -22,16 +22,19 @@ const ISO_2_CODES: Record<string, string> = {
 };
 
 const getFlagUrl = (teamName: string) => {
-  const code = ISO_2_CODES[teamName] || ISO_2_CODES[teamName.trim()] || 'un';
+  if (!teamName) return 'https://flagcdn.com/w40/un.png';
+  const trimmed = teamName.trim();
+  const code = ISO_2_CODES[teamName] || ISO_2_CODES[trimmed] || 'un';
   return `https://flagcdn.com/w40/${code}.png`;
 };
+
+import { apiFetch, API_BASE_URL } from '../../../lib/api';
 
 export const DashboardPage: React.FC = () => {
   const { data, isLoading, isError, refetch, isRefetching } = useQuery({
     queryKey: ['dashboard'],
-    queryFn: async () => {
-      const response = await fetch('http://localhost:8000/api/v1/public/dashboard');
-      if (!response.ok) throw new Error('API fetch error');
+    queryFn: async ({ signal }) => {
+      const response = await apiFetch('/api/v1/public/dashboard', { signal });
       return response.json();
     }
   });
@@ -50,7 +53,7 @@ export const DashboardPage: React.FC = () => {
       <div className="flex h-[60vh] w-full flex-col items-center justify-center gap-4">
         <AlertCircle className="w-12 h-12 text-rose-500" />
         <h3 className="text-lg font-bold text-slate-200">Failed to load statistics</h3>
-        <p className="text-slate-400 text-sm">Please verify the FastAPI backend is running on port 8000.</p>
+        <p className="text-slate-400 text-sm">Please verify the FastAPI backend is running on {API_BASE_URL}.</p>
         <button 
           onClick={() => refetch()} 
           className="mt-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 border border-slate-800 rounded-lg text-sm text-slate-100 font-bold transition-all"

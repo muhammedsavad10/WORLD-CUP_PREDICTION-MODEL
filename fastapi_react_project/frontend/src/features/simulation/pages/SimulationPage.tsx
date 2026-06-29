@@ -19,7 +19,9 @@ const ISO_2_CODES: Record<string, string> = {
 };
 
 const getFlagUrl = (teamName: string) => {
-  const code = ISO_2_CODES[teamName] || ISO_2_CODES[teamName.trim()] || 'un';
+  if (!teamName) return 'https://flagcdn.com/w40/un.png';
+  const trimmed = teamName.trim();
+  const code = ISO_2_CODES[teamName] || ISO_2_CODES[trimmed] || 'un';
   return `https://flagcdn.com/w40/${code}.png`;
 };
 
@@ -38,12 +40,13 @@ const COUNTRY_CODES: Record<string, string> = {
   'Uzbekistan': 'UZB', 'DR Congo': 'COD', 'Ghana': 'GHA', 'Panama': 'PAN'
 };
 
+import { apiFetch, API_BASE_URL } from '../../../lib/api';
+
 export const SimulationPage: React.FC = () => {
   const { data: treeResponse, isLoading, isError, refetch, isRefetching } = useQuery({
     queryKey: ['bracket_tree'],
-    queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/v1/public/simulation/tree');
-      if (!res.ok) throw new Error('Simulation API error');
+    queryFn: async ({ signal }) => {
+      const res = await apiFetch('/api/v1/public/simulation/tree', { signal });
       return res.json();
     }
   });
@@ -62,7 +65,7 @@ export const SimulationPage: React.FC = () => {
       <div className="flex h-[60vh] w-full flex-col items-center justify-center gap-4">
         <AlertCircle className="w-12 h-12 text-rose-500" />
         <h3 className="text-lg font-bold text-slate-200">Simulation Error</h3>
-        <p className="text-slate-400 text-sm">Please verify the FastAPI backend is running.</p>
+        <p className="text-slate-400 text-sm">Please verify the FastAPI backend is running on {API_BASE_URL}.</p>
       </div>
     );
   }
@@ -75,8 +78,8 @@ export const SimulationPage: React.FC = () => {
     const m = bracket[matchId];
     if (!m) return null;
 
-    const codeH = COUNTRY_CODES[m.home_team] || m.home_team.substring(0, 3).toUpperCase();
-    const codeA = COUNTRY_CODES[m.away_team] || m.away_team.substring(0, 3).toUpperCase();
+    const codeH = COUNTRY_CODES[m.home_team] || (m.home_team ? m.home_team.substring(0, 3).toUpperCase() : 'UNK');
+    const codeA = COUNTRY_CODES[m.away_team] || (m.away_team ? m.away_team.substring(0, 3).toUpperCase() : 'UNK');
     const isHomeWinner = m.winner === m.home_team;
     const isAwayWinner = m.winner === m.away_team;
 

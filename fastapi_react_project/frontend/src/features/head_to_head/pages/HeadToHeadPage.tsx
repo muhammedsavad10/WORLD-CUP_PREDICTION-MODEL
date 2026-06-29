@@ -19,9 +19,13 @@ const ISO_2_CODES: Record<string, string> = {
 };
 
 const getFlagUrl = (teamName: string) => {
-  const code = ISO_2_CODES[teamName] || ISO_2_CODES[teamName.trim()] || 'un';
+  if (!teamName) return 'https://flagcdn.com/w40/un.png';
+  const trimmed = teamName.trim();
+  const code = ISO_2_CODES[teamName] || ISO_2_CODES[trimmed] || 'un';
   return `https://flagcdn.com/w40/${code}.png`;
 };
+
+import { apiFetch } from '../../../lib/api';
 
 export const HeadToHeadPage: React.FC = () => {
   const [selectedFixtureIdx, setSelectedFixtureIdx] = useState<number>(0);
@@ -32,7 +36,7 @@ export const HeadToHeadPage: React.FC = () => {
   // Fetch valid fixtures
   const { data: fixturesData, isLoading: isLoadingFixtures } = useQuery({
     queryKey: ['valid_fixtures'],
-    queryFn: () => fetch('http://localhost:8000/api/v1/public/matches/h2h/fixtures').then(res => res.json())
+    queryFn: ({ signal }) => apiFetch('/api/v1/public/matches/h2h/fixtures', { signal }).then(res => res.json())
   });
 
   const fixtures = fixturesData?.data || [];
@@ -46,10 +50,9 @@ export const HeadToHeadPage: React.FC = () => {
   // Fetch prediction odds for selected teams
   const { data: predictionData } = useQuery({
     queryKey: ['h2h_predict', teamA, teamB],
-    queryFn: async () => {
+    queryFn: async ({ signal }) => {
       if (teamA === teamB) return { data: { home_probability: 50.0, away_probability: 50.0 } };
-      const res = await fetch(`http://localhost:8000/api/v1/public/matches/h2h/predict?home_team=${teamA}&away_team=${teamB}`);
-      if (!res.ok) throw new Error('Prediction API error');
+      const res = await apiFetch(`/api/v1/public/matches/h2h/predict?home_team=${teamA}&away_team=${teamB}`, { signal });
       return res.json();
     },
     enabled: !!selectedFixture
@@ -59,7 +62,7 @@ export const HeadToHeadPage: React.FC = () => {
   const analyzeMutation = useMutation({
     mutationFn: async () => {
       setAiReport(null);
-      const res = await fetch('http://localhost:8000/api/v1/public/reasoning/analyze', {
+      const res = await apiFetch('/api/v1/public/reasoning/analyze', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ match_number: 0, home_team: teamA, away_team: teamB })
@@ -79,7 +82,7 @@ export const HeadToHeadPage: React.FC = () => {
   const startPolling = () => {
     const interval = setInterval(async () => {
       try {
-        const res = await fetch(`http://localhost:8000/api/v1/public/reasoning/status?home_team=${teamA}&away_team=${teamB}`);
+        const res = await apiFetch(`/api/v1/public/reasoning/status?home_team=${teamA}&away_team=${teamB}`);
         const data = await res.json();
         if (data.data?.status === 'completed') {
           setAiReport(data.data.analysis);

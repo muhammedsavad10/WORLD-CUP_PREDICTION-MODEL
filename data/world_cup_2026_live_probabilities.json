@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-29T15:01:07+05:30",
+  "last_updated": "2026-06-30T00:43:48+05:30",
   "probabilities": {
     "Algeria": {
-      "avg_opponent_rank": 6.910891089108911,
-      "champion": 0.003,
-      "finalist": 0.005,
+      "avg_opponent_rank": 7.462686567164179,
+      "champion": 0.0,
+      "finalist": 0.002,
       "group_positions": {
         "1": 0.0,
         "2": 0.0,
@@ -14,101 +14,43 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Australia": 0.001,
-          "Brazil": 0.002,
-          "England": 0.001,
-          "Mexico": 0.001
+          "Argentina": 0.001,
+          "Colombia": 0.001
         },
         "quarter_final": {
-          "Austria": 0.007,
-          "Croatia": 0.022,
-          "Portugal": 0.021,
-          "Spain": 0.049
+          "Austria": 0.005,
+          "Croatia": 0.023,
+          "Portugal": 0.023,
+          "Spain": 0.029
         },
         "round_of_16": {
-          "Bosnia and Herzegovina": 0.036,
-          "USA": 0.221
+          "Bosnia and Herzegovina": 0.052,
+          "USA": 0.174
         },
         "round_of_32": {
           "Belgium": 1.0
         },
         "semi_final": {
           "Canada": 0.002,
-          "France": 0.009,
-          "Germany": 0.005,
+          "France": 0.003,
+          "Germany": 0.003,
           "Morocco": 0.002,
-          "Netherlands": 0.008,
-          "Paraguay": 0.001,
-          "Sweden": 0.002
+          "Netherlands": 0.006,
+          "Sweden": 0.001
         }
       },
-      "qf": 0.029,
-      "r16": 0.099,
+      "qf": 0.017,
+      "r16": 0.08,
       "r32": 1.0,
-      "sf": 0.005
+      "sf": 0.002
     },
     "Argentina": {
-      "avg_opponent_rank": 33.21499548328816,
-      "champion": 0.129,
-      "finalist": 0.25,
+      "avg_opponent_rank": 33.68368926029093,
+      "champion": 0.114,
+      "finalist": 0.208,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
-        "3": 0.0,
-        "4": 0.0
-      },
-      "group_qual": 1.0,
-      "matchup_frequencies": {
-        "final": {
-          "Austria": 0.006,
-          "Belgium": 0.025,
-          "Canada": 0.003,
-          "Croatia": 0.017,
-          "France": 0.049,
-          "Germany": 0.018,
-          "Morocco": 0.012,
-          "Netherlands": 0.039,
-          "Portugal": 0.016,
-          "Spain": 0.042,
-          "Sweden": 0.003,
-          "USA": 0.02
-        },
-        "quarter_final": {
-          "Colombia": 0.308,
-          "Ghana": 0.03,
-          "Iran": 0.083,
-          "Switzerland": 0.217
-        },
-        "round_of_16": {
-          "Australia": 0.541,
-          "Egypt": 0.34
-        },
-        "round_of_32": {
-          "Cape Verde": 1.0
-        },
-        "semi_final": {
-          "Brazil": 0.103,
-          "DR Congo": 0.005,
-          "Ecuador": 0.016,
-          "England": 0.116,
-          "Ivory Coast": 0.015,
-          "Japan": 0.055,
-          "Mexico": 0.062,
-          "Norway": 0.029
-        }
-      },
-      "qf": 0.401,
-      "r16": 0.638,
-      "r32": 1.0,
-      "sf": 0.25
-    },
-    "Australia": {
-      "avg_opponent_rank": 23.45432098765432,
-      "champion": 0.014,
-      "finalist": 0.041,
-      "group_positions": {
-        "1": 0.0,
-        "2": 1.0,
         "3": 0.0,
         "4": 0.0
       },
@@ -116,50 +58,52 @@
       "matchup_frequencies": {
         "final": {
           "Algeria": 0.001,
-          "Belgium": 0.003,
-          "Croatia": 0.003,
-          "France": 0.007,
-          "Germany": 0.004,
-          "Morocco": 0.004,
-          "Netherlands": 0.007,
-          "Portugal": 0.005,
-          "Spain": 0.004,
-          "Sweden": 0.002,
-          "USA": 0.001
+          "Austria": 0.004,
+          "Belgium": 0.014,
+          "Canada": 0.005,
+          "Croatia": 0.011,
+          "France": 0.046,
+          "Germany": 0.022,
+          "Morocco": 0.016,
+          "Netherlands": 0.021,
+          "Portugal": 0.017,
+          "Spain": 0.034,
+          "Sweden": 0.004,
+          "USA": 0.013
         },
         "quarter_final": {
-          "Colombia": 0.127,
-          "Ghana": 0.003,
-          "Iran": 0.028,
-          "Switzerland": 0.076
+          "Colombia": 0.338,
+          "Ghana": 0.016,
+          "Iran": 0.083,
+          "Switzerland": 0.195
         },
         "round_of_16": {
-          "Argentina": 0.541,
-          "Cape Verde": 0.076
+          "Australia": 0.542,
+          "Egypt": 0.321
         },
         "round_of_32": {
-          "Egypt": 1.0
+          "Cape Verde": 1.0
         },
         "semi_final": {
-          "Brazil": 0.017,
-          "DR Congo": 0.004,
-          "Ecuador": 0.003,
-          "England": 0.022,
-          "Ivory Coast": 0.002,
-          "Japan": 0.014,
-          "Mexico": 0.017,
-          "Norway": 0.008
+          "Brazil": 0.094,
+          "DR Congo": 0.002,
+          "Ecuador": 0.009,
+          "England": 0.104,
+          "Ivory Coast": 0.021,
+          "Japan": 0.046,
+          "Mexico": 0.052,
+          "Norway": 0.04
         }
       },
-      "qf": 0.087,
-      "r16": 0.234,
+      "qf": 0.368,
+      "r16": 0.632,
       "r32": 1.0,
-      "sf": 0.041
+      "sf": 0.208
     },
-    "Austria": {
-      "avg_opponent_rank": 8.374377224199288,
-      "champion": 0.004,
-      "finalist": 0.015,
+    "Australia": {
+      "avg_opponent_rank": 23.880257298367145,
+      "champion": 0.012,
+      "finalist": 0.03,
       "group_positions": {
         "1": 0.0,
         "2": 1.0,
@@ -169,138 +113,98 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.006,
-          "Brazil": 0.003,
-          "Colombia": 0.002,
-          "England": 0.001,
-          "Japan": 0.001,
-          "Mexico": 0.001,
-          "Switzerland": 0.001
+          "Belgium": 0.006,
+          "Canada": 0.001,
+          "Croatia": 0.003,
+          "France": 0.007,
+          "Germany": 0.003,
+          "Netherlands": 0.005,
+          "Portugal": 0.002,
+          "Spain": 0.002,
+          "USA": 0.001
         },
         "quarter_final": {
-          "Algeria": 0.007,
-          "Belgium": 0.04,
-          "Bosnia and Herzegovina": 0.004,
-          "USA": 0.035
+          "Colombia": 0.114,
+          "Ghana": 0.007,
+          "Iran": 0.036,
+          "Switzerland": 0.065
         },
         "round_of_16": {
-          "Croatia": 0.091,
-          "Portugal": 0.16
+          "Argentina": 0.542,
+          "Cape Verde": 0.089
         },
         "round_of_32": {
-          "Spain": 1.0
+          "Egypt": 1.0
         },
         "semi_final": {
-          "Canada": 0.002,
-          "France": 0.011,
-          "Germany": 0.008,
-          "Morocco": 0.005,
-          "Netherlands": 0.005,
-          "Paraguay": 0.002,
-          "Sweden": 0.001
+          "Brazil": 0.019,
+          "Ecuador": 0.002,
+          "England": 0.027,
+          "Ivory Coast": 0.001,
+          "Japan": 0.013,
+          "Mexico": 0.015,
+          "Norway": 0.007
         }
       },
-      "qf": 0.034,
-      "r16": 0.086,
+      "qf": 0.084,
+      "r16": 0.222,
       "r32": 1.0,
-      "sf": 0.015
+      "sf": 0.03
     },
-    "Belgium": {
-      "avg_opponent_rank": 27.055781307720725,
-      "champion": 0.052,
-      "finalist": 0.1,
+    "Austria": {
+      "avg_opponent_rank": 8.56664290805417,
+      "champion": 0.004,
+      "finalist": 0.016,
       "group_positions": {
-        "1": 1.0,
-        "2": 0.0,
+        "1": 0.0,
+        "2": 1.0,
         "3": 0.0,
         "4": 0.0
       },
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.025,
-          "Australia": 0.003,
-          "Brazil": 0.004,
-          "Colombia": 0.013,
-          "Ecuador": 0.001,
-          "England": 0.019,
+          "Argentina": 0.004,
+          "Brazil": 0.002,
+          "Colombia": 0.001,
+          "England": 0.003,
           "Iran": 0.001,
-          "Ivory Coast": 0.003,
-          "Japan": 0.008,
-          "Mexico": 0.013,
-          "Norway": 0.002,
-          "Switzerland": 0.008
+          "Japan": 0.001,
+          "Mexico": 0.002,
+          "Norway": 0.001,
+          "Switzerland": 0.001
         },
         "quarter_final": {
-          "Austria": 0.04,
-          "Croatia": 0.089,
-          "Portugal": 0.143,
-          "Spain": 0.226
+          "Algeria": 0.005,
+          "Belgium": 0.038,
+          "Bosnia and Herzegovina": 0.006,
+          "USA": 0.034
         },
         "round_of_16": {
-          "Bosnia and Herzegovina": 0.172,
-          "USA": 0.571
+          "Croatia": 0.114,
+          "Portugal": 0.134
         },
         "round_of_32": {
-          "Algeria": 1.0
+          "Spain": 1.0
         },
         "semi_final": {
-          "Canada": 0.011,
-          "France": 0.077,
-          "Germany": 0.039,
-          "Morocco": 0.029,
-          "Netherlands": 0.063,
-          "Paraguay": 0.003,
-          "Sweden": 0.011
-        }
-      },
-      "qf": 0.233,
-      "r16": 0.498,
-      "r32": 1.0,
-      "sf": 0.1
-    },
-    "Bosnia and Herzegovina": {
-      "avg_opponent_rank": 10.833863275039745,
-      "champion": 0.0,
-      "finalist": 0.0,
-      "group_positions": {
-        "1": 0.0,
-        "2": 0.0,
-        "3": 1.0,
-        "4": 0.0
-      },
-      "group_qual": 1.0,
-      "matchup_frequencies": {
-        "final": {},
-        "quarter_final": {
-          "Austria": 0.004,
-          "Croatia": 0.005,
-          "Portugal": 0.01,
-          "Spain": 0.019
-        },
-        "round_of_16": {
-          "Algeria": 0.036,
-          "Belgium": 0.172
-        },
-        "round_of_32": {
-          "USA": 1.0
-        },
-        "semi_final": {
-          "France": 0.002,
-          "Germany": 0.001,
-          "Morocco": 0.001,
-          "Netherlands": 0.001,
+          "Canada": 0.002,
+          "France": 0.01,
+          "Germany": 0.006,
+          "Morocco": 0.004,
+          "Netherlands": 0.011,
+          "Paraguay": 0.002,
           "Sweden": 0.001
         }
       },
-      "qf": 0.006,
-      "r16": 0.038,
+      "qf": 0.036,
+      "r16": 0.083,
       "r32": 1.0,
-      "sf": 0.0
+      "sf": 0.016
     },
-    "Brazil": {
-      "avg_opponent_rank": 20.89925986842105,
-      "champion": 0.051,
+    "Belgium": {
+      "avg_opponent_rank": 27.089525190286334,
+      "champion": 0.07,
       "finalist": 0.117,
       "group_positions": {
         "1": 1.0,
@@ -311,141 +215,88 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Algeria": 0.002,
-          "Austria": 0.003,
-          "Belgium": 0.004,
-          "Canada": 0.002,
-          "Croatia": 0.014,
-          "France": 0.028,
-          "Germany": 0.008,
-          "Morocco": 0.008,
-          "Netherlands": 0.006,
-          "Portugal": 0.011,
-          "Spain": 0.016,
-          "Sweden": 0.004,
-          "USA": 0.011
+          "Argentina": 0.014,
+          "Australia": 0.006,
+          "Brazil": 0.016,
+          "Colombia": 0.027,
+          "Ecuador": 0.001,
+          "England": 0.019,
+          "Iran": 0.002,
+          "Ivory Coast": 0.005,
+          "Japan": 0.01,
+          "Mexico": 0.007,
+          "Norway": 0.004,
+          "Switzerland": 0.006
         },
         "quarter_final": {
-          "DR Congo": 0.016,
-          "Ecuador": 0.034,
-          "England": 0.223,
-          "Mexico": 0.135
+          "Austria": 0.038,
+          "Croatia": 0.125,
+          "Portugal": 0.149,
+          "Spain": 0.187
         },
         "round_of_16": {
-          "Ivory Coast": 0.247,
-          "Norway": 0.319
+          "Bosnia and Herzegovina": 0.173,
+          "USA": 0.601
         },
         "round_of_32": {
-          "Japan": 1.0
+          "Algeria": 1.0
         },
         "semi_final": {
-          "Argentina": 0.103,
-          "Australia": 0.017,
-          "Cape Verde": 0.001,
-          "Colombia": 0.056,
-          "Egypt": 0.006,
-          "Ghana": 0.001,
-          "Iran": 0.013,
-          "Switzerland": 0.032
+          "Canada": 0.024,
+          "France": 0.075,
+          "Germany": 0.037,
+          "Morocco": 0.033,
+          "Netherlands": 0.057,
+          "Paraguay": 0.005,
+          "Sweden": 0.012
         }
       },
-      "qf": 0.229,
-      "r16": 0.408,
+      "qf": 0.243,
+      "r16": 0.499,
       "r32": 1.0,
       "sf": 0.117
     },
-    "Canada": {
-      "avg_opponent_rank": 30.784405624201106,
-      "champion": 0.002,
-      "finalist": 0.013,
-      "group_positions": {
-        "1": 0.0,
-        "2": 1.0,
-        "3": 0.0,
-        "4": 0.0
-      },
-      "group_qual": 1.0,
-      "matchup_frequencies": {
-        "final": {
-          "Argentina": 0.003,
-          "Brazil": 0.002,
-          "Colombia": 0.001,
-          "England": 0.003,
-          "Ivory Coast": 0.001,
-          "Japan": 0.001,
-          "Mexico": 0.001,
-          "Switzerland": 0.001
-        },
-        "quarter_final": {
-          "France": 0.126,
-          "Germany": 0.071,
-          "Paraguay": 0.013,
-          "Sweden": 0.027
-        },
-        "round_of_16": {
-          "Morocco": 0.409,
-          "Netherlands": 0.591
-        },
-        "round_of_32": {
-          "South Africa": 1.0
-        },
-        "semi_final": {
-          "Algeria": 0.002,
-          "Austria": 0.002,
-          "Belgium": 0.011,
-          "Croatia": 0.008,
-          "Portugal": 0.01,
-          "Spain": 0.014,
-          "USA": 0.008
-        }
-      },
-      "qf": 0.055,
-      "r16": 0.237,
-      "r32": 1.0,
-      "sf": 0.013
-    },
-    "Cape Verde": {
-      "avg_opponent_rank": 4.251718213058419,
+    "Bosnia and Herzegovina": {
+      "avg_opponent_rank": 11.313908313908314,
       "champion": 0.0,
       "finalist": 0.0,
       "group_positions": {
         "1": 0.0,
-        "2": 1.0,
-        "3": 0.0,
+        "2": 0.0,
+        "3": 1.0,
         "4": 0.0
       },
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {},
         "quarter_final": {
-          "Colombia": 0.026,
-          "Iran": 0.001,
-          "Switzerland": 0.008
+          "Austria": 0.006,
+          "Croatia": 0.011,
+          "Portugal": 0.013,
+          "Spain": 0.016
         },
         "round_of_16": {
-          "Australia": 0.076,
-          "Egypt": 0.043
+          "Algeria": 0.052,
+          "Belgium": 0.173
         },
         "round_of_32": {
-          "Argentina": 1.0
+          "USA": 1.0
         },
         "semi_final": {
-          "Brazil": 0.001,
-          "Ivory Coast": 0.001,
-          "Japan": 0.001,
-          "Mexico": 0.001,
-          "Norway": 0.001
+          "France": 0.004,
+          "Morocco": 0.003,
+          "Sweden": 0.001
         }
       },
-      "qf": 0.005,
-      "r16": 0.035,
+      "qf": 0.008,
+      "r16": 0.046,
       "r32": 1.0,
       "sf": 0.0
     },
-    "Colombia": {
-      "avg_opponent_rank": 32.2887275242047,
-      "champion": 0.062,
-      "finalist": 0.152,
+    "Brazil": {
+      "avg_opponent_rank": 21.0311377245509,
+      "champion": 0.077,
+      "finalist": 0.14,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
@@ -456,51 +307,196 @@
       "matchup_frequencies": {
         "final": {
           "Austria": 0.002,
-          "Belgium": 0.013,
-          "Canada": 0.001,
-          "Croatia": 0.01,
-          "France": 0.04,
-          "Germany": 0.01,
-          "Morocco": 0.012,
-          "Netherlands": 0.016,
-          "Paraguay": 0.001,
-          "Portugal": 0.011,
-          "Spain": 0.025,
-          "Sweden": 0.003,
-          "USA": 0.008
+          "Belgium": 0.016,
+          "Canada": 0.005,
+          "Croatia": 0.005,
+          "France": 0.028,
+          "Germany": 0.019,
+          "Morocco": 0.009,
+          "Netherlands": 0.013,
+          "Portugal": 0.016,
+          "Spain": 0.016,
+          "Sweden": 0.002,
+          "USA": 0.009
         },
         "quarter_final": {
-          "Argentina": 0.308,
-          "Australia": 0.127,
-          "Cape Verde": 0.026,
-          "Egypt": 0.045
+          "DR Congo": 0.022,
+          "Ecuador": 0.032,
+          "England": 0.24,
+          "Mexico": 0.134
         },
         "round_of_16": {
-          "Iran": 0.279,
-          "Switzerland": 0.565
+          "Ivory Coast": 0.254,
+          "Norway": 0.337
+        },
+        "round_of_32": {
+          "Japan": 1.0
+        },
+        "semi_final": {
+          "Argentina": 0.094,
+          "Australia": 0.019,
+          "Cape Verde": 0.002,
+          "Colombia": 0.061,
+          "Egypt": 0.007,
+          "Ghana": 0.001,
+          "Iran": 0.022,
+          "Switzerland": 0.037
+        }
+      },
+      "qf": 0.243,
+      "r16": 0.428,
+      "r32": 1.0,
+      "sf": 0.14
+    },
+    "Canada": {
+      "avg_opponent_rank": 30.440882597835138,
+      "champion": 0.003,
+      "finalist": 0.016,
+      "group_positions": {
+        "1": 0.0,
+        "2": 1.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "group_qual": 1.0,
+      "matchup_frequencies": {
+        "final": {
+          "Argentina": 0.005,
+          "Australia": 0.001,
+          "Brazil": 0.005,
+          "England": 0.001,
+          "Iran": 0.001,
+          "Japan": 0.001,
+          "Switzerland": 0.002
+        },
+        "quarter_final": {
+          "France": 0.151,
+          "Germany": 0.072,
+          "Paraguay": 0.017,
+          "Sweden": 0.028
+        },
+        "round_of_16": {
+          "Morocco": 0.453,
+          "Netherlands": 0.547
+        },
+        "round_of_32": {
+          "South Africa": 1.0
+        },
+        "semi_final": {
+          "Algeria": 0.002,
+          "Austria": 0.002,
+          "Belgium": 0.024,
+          "Croatia": 0.005,
+          "Portugal": 0.009,
+          "Spain": 0.017,
+          "USA": 0.008
+        }
+      },
+      "qf": 0.067,
+      "r16": 0.268,
+      "r32": 1.0,
+      "sf": 0.016
+    },
+    "Cape Verde": {
+      "avg_opponent_rank": 4.896725440806045,
+      "champion": 0.0,
+      "finalist": 0.001,
+      "group_positions": {
+        "1": 0.0,
+        "2": 1.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "group_qual": 1.0,
+      "matchup_frequencies": {
+        "final": {
+          "Spain": 0.001
+        },
+        "quarter_final": {
+          "Colombia": 0.017,
+          "Ghana": 0.002,
+          "Iran": 0.006,
+          "Switzerland": 0.015
+        },
+        "round_of_16": {
+          "Australia": 0.089,
+          "Egypt": 0.048
+        },
+        "round_of_32": {
+          "Argentina": 1.0
+        },
+        "semi_final": {
+          "Brazil": 0.002,
+          "England": 0.002,
+          "Ivory Coast": 0.001,
+          "Japan": 0.001,
+          "Norway": 0.001
+        }
+      },
+      "qf": 0.007,
+      "r16": 0.04,
+      "r32": 1.0,
+      "sf": 0.001
+    },
+    "Colombia": {
+      "avg_opponent_rank": 31.79424703891709,
+      "champion": 0.065,
+      "finalist": 0.148,
+      "group_positions": {
+        "1": 1.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "group_qual": 1.0,
+      "matchup_frequencies": {
+        "final": {
+          "Algeria": 0.001,
+          "Austria": 0.001,
+          "Belgium": 0.027,
+          "Croatia": 0.012,
+          "France": 0.026,
+          "Germany": 0.01,
+          "Morocco": 0.008,
+          "Netherlands": 0.018,
+          "Paraguay": 0.002,
+          "Portugal": 0.014,
+          "Spain": 0.019,
+          "Sweden": 0.001,
+          "USA": 0.009
+        },
+        "quarter_final": {
+          "Argentina": 0.338,
+          "Australia": 0.114,
+          "Cape Verde": 0.017,
+          "Egypt": 0.055
+        },
+        "round_of_16": {
+          "Iran": 0.327,
+          "Switzerland": 0.542
         },
         "round_of_32": {
           "Ghana": 1.0
         },
         "semi_final": {
-          "Brazil": 0.056,
-          "DR Congo": 0.006,
-          "Ecuador": 0.005,
-          "England": 0.087,
+          "Brazil": 0.061,
+          "DR Congo": 0.002,
+          "Ecuador": 0.007,
+          "England": 0.096,
           "Ivory Coast": 0.012,
-          "Japan": 0.037,
-          "Mexico": 0.052,
-          "Norway": 0.016
+          "Japan": 0.035,
+          "Mexico": 0.031,
+          "Norway": 0.037
         }
       },
-      "qf": 0.271,
-      "r16": 0.506,
+      "qf": 0.281,
+      "r16": 0.524,
       "r32": 1.0,
-      "sf": 0.152
+      "sf": 0.148
     },
     "Croatia": {
-      "avg_opponent_rank": 8.663601946998378,
-      "champion": 0.033,
+      "avg_opponent_rank": 9.077709611451942,
+      "champion": 0.031,
       "finalist": 0.063,
       "group_positions": {
         "1": 0.0,
@@ -511,42 +507,43 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.017,
+          "Argentina": 0.011,
           "Australia": 0.003,
-          "Brazil": 0.014,
-          "Colombia": 0.01,
-          "England": 0.009,
+          "Brazil": 0.005,
+          "Colombia": 0.012,
+          "Egypt": 0.001,
+          "England": 0.015,
           "Iran": 0.001,
           "Ivory Coast": 0.001,
-          "Japan": 0.003,
-          "Mexico": 0.001,
-          "Norway": 0.001,
+          "Japan": 0.001,
+          "Mexico": 0.008,
+          "Norway": 0.002,
           "Switzerland": 0.003
         },
         "quarter_final": {
-          "Algeria": 0.022,
-          "Belgium": 0.089,
-          "Bosnia and Herzegovina": 0.005,
-          "USA": 0.077
+          "Algeria": 0.023,
+          "Belgium": 0.125,
+          "Bosnia and Herzegovina": 0.011,
+          "USA": 0.082
         },
         "round_of_16": {
-          "Austria": 0.091,
-          "Spain": 0.345
+          "Austria": 0.114,
+          "Spain": 0.335
         },
         "round_of_32": {
           "Portugal": 1.0
         },
         "semi_final": {
-          "Canada": 0.008,
-          "France": 0.04,
-          "Germany": 0.015,
-          "Morocco": 0.01,
-          "Netherlands": 0.031,
-          "Sweden": 0.006
+          "Canada": 0.005,
+          "France": 0.047,
+          "Germany": 0.025,
+          "Morocco": 0.018,
+          "Netherlands": 0.03,
+          "Sweden": 0.008
         }
       },
-      "qf": 0.11,
-      "r16": 0.193,
+      "qf": 0.133,
+      "r16": 0.241,
       "r32": 1.0,
       "sf": 0.063
     },
@@ -597,9 +594,9 @@
       "sf": 0.0
     },
     "DR Congo": {
-      "avg_opponent_rank": 7.773129525341915,
-      "champion": 0.0,
-      "finalist": 0.001,
+      "avg_opponent_rank": 7.892394822006472,
+      "champion": 0.001,
+      "finalist": 0.002,
       "group_positions": {
         "1": 0.0,
         "2": 0.0,
@@ -609,35 +606,38 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Netherlands": 0.001
+          "Germany": 0.001,
+          "Spain": 0.001
         },
         "quarter_final": {
-          "Brazil": 0.016,
-          "Ivory Coast": 0.005,
-          "Japan": 0.02,
-          "Norway": 0.01
+          "Brazil": 0.022,
+          "Ivory Coast": 0.004,
+          "Japan": 0.014,
+          "Norway": 0.013
         },
         "round_of_16": {
-          "Ecuador": 0.053,
-          "Mexico": 0.109
+          "Ecuador": 0.064,
+          "Mexico": 0.103
         },
         "round_of_32": {
           "England": 1.0
         },
         "semi_final": {
-          "Argentina": 0.005,
-          "Australia": 0.004,
-          "Colombia": 0.006
+          "Argentina": 0.002,
+          "Colombia": 0.002,
+          "Egypt": 0.001,
+          "Iran": 0.001,
+          "Switzerland": 0.002
         }
       },
-      "qf": 0.015,
-      "r16": 0.051,
+      "qf": 0.008,
+      "r16": 0.053,
       "r32": 1.0,
-      "sf": 0.001
+      "sf": 0.002
     },
     "Ecuador": {
-      "avg_opponent_rank": 14.995406824146981,
-      "champion": 0.0,
+      "avg_opponent_rank": 15.554332874828061,
+      "champion": 0.002,
       "finalist": 0.006,
       "group_positions": {
         "1": 0.0,
@@ -649,43 +649,42 @@
       "matchup_frequencies": {
         "final": {
           "Belgium": 0.001,
-          "Morocco": 0.001,
+          "France": 0.002,
+          "Germany": 0.001,
           "Netherlands": 0.001,
-          "Portugal": 0.001,
-          "Spain": 0.002
+          "Portugal": 0.001
         },
         "quarter_final": {
-          "Brazil": 0.034,
-          "Ivory Coast": 0.008,
-          "Japan": 0.033,
-          "Norway": 0.028
+          "Brazil": 0.032,
+          "Ivory Coast": 0.006,
+          "Japan": 0.024,
+          "Norway": 0.025
         },
         "round_of_16": {
-          "DR Congo": 0.053,
-          "England": 0.306
+          "DR Congo": 0.064,
+          "England": 0.255
         },
         "round_of_32": {
           "Mexico": 1.0
         },
         "semi_final": {
-          "Argentina": 0.016,
-          "Australia": 0.003,
-          "Colombia": 0.005,
-          "Egypt": 0.003,
-          "Ghana": 0.001,
+          "Argentina": 0.009,
+          "Australia": 0.002,
+          "Colombia": 0.007,
+          "Egypt": 0.001,
           "Iran": 0.001,
-          "Switzerland": 0.002
+          "Switzerland": 0.004
         }
       },
-      "qf": 0.031,
-      "r16": 0.103,
+      "qf": 0.024,
+      "r16": 0.087,
       "r32": 1.0,
       "sf": 0.006
     },
     "Egypt": {
-      "avg_opponent_rank": 18.474093264248705,
-      "champion": 0.004,
-      "finalist": 0.012,
+      "avg_opponent_rank": 18.803629293583928,
+      "champion": 0.002,
+      "finalist": 0.006,
       "group_positions": {
         "1": 0.0,
         "2": 1.0,
@@ -695,46 +694,43 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
+          "Croatia": 0.001,
           "France": 0.001,
-          "Germany": 0.001,
-          "Morocco": 0.002,
           "Netherlands": 0.001,
-          "Portugal": 0.003,
-          "Spain": 0.001,
-          "Sweden": 0.001,
-          "USA": 0.002
+          "Spain": 0.002,
+          "USA": 0.001
         },
         "quarter_final": {
-          "Colombia": 0.045,
-          "Iran": 0.009,
-          "Switzerland": 0.039
+          "Colombia": 0.055,
+          "Ghana": 0.001,
+          "Iran": 0.013,
+          "Switzerland": 0.037
         },
         "round_of_16": {
-          "Argentina": 0.34,
-          "Cape Verde": 0.043
+          "Argentina": 0.321,
+          "Cape Verde": 0.048
         },
         "round_of_32": {
           "Australia": 1.0
         },
         "semi_final": {
-          "Brazil": 0.006,
-          "Ecuador": 0.003,
-          "England": 0.01,
-          "Ivory Coast": 0.003,
-          "Japan": 0.003,
-          "Mexico": 0.007,
-          "Norway": 0.002
+          "Brazil": 0.007,
+          "DR Congo": 0.001,
+          "Ecuador": 0.001,
+          "England": 0.015,
+          "Japan": 0.005,
+          "Mexico": 0.005
         }
       },
       "qf": 0.034,
-      "r16": 0.093,
+      "r16": 0.106,
       "r32": 1.0,
-      "sf": 0.012
+      "sf": 0.006
     },
     "England": {
-      "avg_opponent_rank": 31.824455611390285,
-      "champion": 0.081,
-      "finalist": 0.157,
+      "avg_opponent_rank": 31.380225613802256,
+      "champion": 0.074,
+      "finalist": 0.166,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
@@ -744,52 +740,51 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Algeria": 0.001,
-          "Austria": 0.001,
+          "Austria": 0.003,
           "Belgium": 0.019,
-          "Canada": 0.003,
-          "Croatia": 0.009,
-          "France": 0.034,
-          "Germany": 0.005,
-          "Morocco": 0.009,
-          "Netherlands": 0.028,
-          "Portugal": 0.012,
-          "Spain": 0.022,
-          "Sweden": 0.005,
-          "USA": 0.009
+          "Canada": 0.001,
+          "Croatia": 0.015,
+          "France": 0.039,
+          "Germany": 0.012,
+          "Morocco": 0.008,
+          "Netherlands": 0.016,
+          "Portugal": 0.016,
+          "Spain": 0.028,
+          "Sweden": 0.003,
+          "USA": 0.006
         },
         "quarter_final": {
-          "Brazil": 0.223,
-          "Ivory Coast": 0.071,
-          "Japan": 0.151,
-          "Norway": 0.094
+          "Brazil": 0.24,
+          "Ivory Coast": 0.065,
+          "Japan": 0.15,
+          "Norway": 0.098
         },
         "round_of_16": {
-          "Ecuador": 0.306,
-          "Mexico": 0.532
+          "Ecuador": 0.255,
+          "Mexico": 0.578
         },
         "round_of_32": {
           "DR Congo": 1.0
         },
         "semi_final": {
-          "Argentina": 0.116,
-          "Australia": 0.022,
-          "Colombia": 0.087,
-          "Egypt": 0.01,
-          "Ghana": 0.001,
-          "Iran": 0.01,
-          "Switzerland": 0.058
+          "Argentina": 0.104,
+          "Australia": 0.027,
+          "Cape Verde": 0.002,
+          "Colombia": 0.096,
+          "Egypt": 0.015,
+          "Iran": 0.02,
+          "Switzerland": 0.05
         }
       },
-      "qf": 0.304,
-      "r16": 0.539,
+      "qf": 0.314,
+      "r16": 0.553,
       "r32": 1.0,
-      "sf": 0.157
+      "sf": 0.166
     },
     "France": {
-      "avg_opponent_rank": 21.602703593801518,
-      "champion": 0.154,
-      "finalist": 0.219,
+      "avg_opponent_rank": 22.237901861252116,
+      "champion": 0.119,
+      "finalist": 0.205,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
@@ -799,51 +794,52 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.049,
+          "Argentina": 0.046,
           "Australia": 0.007,
           "Brazil": 0.028,
-          "Colombia": 0.04,
+          "Colombia": 0.026,
+          "Ecuador": 0.002,
           "Egypt": 0.001,
-          "England": 0.034,
-          "Iran": 0.005,
-          "Ivory Coast": 0.005,
-          "Japan": 0.013,
-          "Mexico": 0.01,
+          "England": 0.039,
+          "Iran": 0.004,
+          "Ivory Coast": 0.004,
+          "Japan": 0.012,
+          "Mexico": 0.012,
           "Norway": 0.007,
-          "Switzerland": 0.02
+          "Switzerland": 0.017
         },
         "quarter_final": {
-          "Canada": 0.126,
-          "Morocco": 0.162,
-          "Netherlands": 0.253
+          "Canada": 0.151,
+          "Morocco": 0.161,
+          "Netherlands": 0.211
         },
         "round_of_16": {
-          "Germany": 0.561,
-          "Paraguay": 0.193
+          "Germany": 0.551,
+          "Paraguay": 0.189
         },
         "round_of_32": {
           "Sweden": 1.0
         },
         "semi_final": {
-          "Algeria": 0.009,
-          "Austria": 0.011,
-          "Belgium": 0.077,
-          "Bosnia and Herzegovina": 0.002,
-          "Croatia": 0.04,
-          "Portugal": 0.062,
-          "Spain": 0.107,
-          "USA": 0.061
+          "Algeria": 0.003,
+          "Austria": 0.01,
+          "Belgium": 0.075,
+          "Bosnia and Herzegovina": 0.004,
+          "Croatia": 0.047,
+          "Portugal": 0.056,
+          "Spain": 0.094,
+          "USA": 0.057
         }
       },
-      "qf": 0.369,
-      "r16": 0.541,
+      "qf": 0.346,
+      "r16": 0.523,
       "r32": 1.0,
-      "sf": 0.219
+      "sf": 0.205
     },
     "Germany": {
-      "avg_opponent_rank": 31.481336805555557,
-      "champion": 0.034,
-      "finalist": 0.071,
+      "avg_opponent_rank": 31.046728971962615,
+      "champion": 0.035,
+      "finalist": 0.083,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
@@ -853,51 +849,50 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.018,
-          "Australia": 0.004,
-          "Brazil": 0.008,
+          "Argentina": 0.022,
+          "Australia": 0.003,
+          "Brazil": 0.019,
           "Colombia": 0.01,
-          "Egypt": 0.001,
-          "England": 0.005,
-          "Iran": 0.002,
+          "DR Congo": 0.001,
+          "Ecuador": 0.001,
+          "England": 0.012,
+          "Iran": 0.001,
           "Ivory Coast": 0.001,
-          "Japan": 0.004,
-          "Mexico": 0.006,
-          "Norway": 0.002,
-          "Switzerland": 0.01
+          "Japan": 0.007,
+          "Mexico": 0.004,
+          "Switzerland": 0.002
         },
         "quarter_final": {
-          "Canada": 0.071,
-          "Morocco": 0.078,
-          "Netherlands": 0.143
+          "Canada": 0.072,
+          "Morocco": 0.092,
+          "Netherlands": 0.127
         },
         "round_of_16": {
-          "France": 0.561,
-          "Sweden": 0.177
+          "France": 0.551,
+          "Sweden": 0.19
         },
         "round_of_32": {
           "Paraguay": 1.0
         },
         "semi_final": {
-          "Algeria": 0.005,
-          "Austria": 0.008,
-          "Belgium": 0.039,
-          "Bosnia and Herzegovina": 0.001,
-          "Croatia": 0.015,
-          "Portugal": 0.023,
-          "Spain": 0.029,
-          "USA": 0.017
+          "Algeria": 0.003,
+          "Austria": 0.006,
+          "Belgium": 0.037,
+          "Croatia": 0.025,
+          "Portugal": 0.027,
+          "Spain": 0.037,
+          "USA": 0.026
         }
       },
-      "qf": 0.137,
-      "r16": 0.292,
+      "qf": 0.161,
+      "r16": 0.291,
       "r32": 1.0,
-      "sf": 0.071
+      "sf": 0.083
     },
     "Ghana": {
-      "avg_opponent_rank": 12.7285595337219,
+      "avg_opponent_rank": 12.848144952545297,
       "champion": 0.0,
-      "finalist": 0.001,
+      "finalist": 0.0,
       "group_positions": {
         "1": 0.0,
         "2": 0.0,
@@ -906,33 +901,28 @@
       },
       "group_qual": 1.0,
       "matchup_frequencies": {
-        "final": {
-          "Portugal": 0.001
-        },
+        "final": {},
         "quarter_final": {
-          "Argentina": 0.03,
-          "Australia": 0.003
+          "Argentina": 0.016,
+          "Australia": 0.007,
+          "Cape Verde": 0.002,
+          "Egypt": 0.001
         },
         "round_of_16": {
-          "Iran": 0.057,
-          "Switzerland": 0.099
+          "Iran": 0.049,
+          "Switzerland": 0.082
         },
         "round_of_32": {
           "Colombia": 1.0
         },
         "semi_final": {
-          "Brazil": 0.001,
-          "Ecuador": 0.001,
-          "England": 0.001,
-          "Ivory Coast": 0.001,
-          "Japan": 0.001,
-          "Mexico": 0.001
+          "Brazil": 0.001
         }
       },
-      "qf": 0.006,
-      "r16": 0.033,
+      "qf": 0.001,
+      "r16": 0.026,
       "r32": 1.0,
-      "sf": 0.001
+      "sf": 0.0
     },
     "Haiti": {
       "avg_opponent_rank": 50.0,
@@ -958,9 +948,9 @@
       "sf": 0.0
     },
     "Iran": {
-      "avg_opponent_rank": 18.246593121349772,
-      "champion": 0.008,
-      "finalist": 0.019,
+      "avg_opponent_rank": 17.994498777506113,
+      "champion": 0.007,
+      "finalist": 0.02,
       "group_positions": {
         "1": 0.0,
         "2": 0.0,
@@ -970,42 +960,47 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Belgium": 0.001,
+          "Austria": 0.001,
+          "Belgium": 0.002,
+          "Canada": 0.001,
           "Croatia": 0.001,
-          "France": 0.005,
-          "Germany": 0.002,
-          "Morocco": 0.002,
+          "France": 0.004,
+          "Germany": 0.001,
+          "Morocco": 0.001,
           "Netherlands": 0.003,
-          "Spain": 0.004,
+          "Paraguay": 0.001,
+          "Spain": 0.002,
+          "Sweden": 0.002,
           "USA": 0.001
         },
         "quarter_final": {
           "Argentina": 0.083,
-          "Australia": 0.028,
-          "Cape Verde": 0.001,
-          "Egypt": 0.009
+          "Australia": 0.036,
+          "Cape Verde": 0.006,
+          "Egypt": 0.013
         },
         "round_of_16": {
-          "Colombia": 0.279,
-          "Ghana": 0.057
+          "Colombia": 0.327,
+          "Ghana": 0.049
         },
         "round_of_32": {
           "Switzerland": 1.0
         },
         "semi_final": {
-          "Brazil": 0.013,
+          "Brazil": 0.022,
+          "DR Congo": 0.001,
           "Ecuador": 0.001,
-          "England": 0.01,
-          "Ivory Coast": 0.003,
-          "Japan": 0.007,
+          "England": 0.02,
+          "Ivory Coast": 0.002,
+          "Japan": 0.006,
           "Mexico": 0.005,
-          "Norway": 0.003
+          "Norway": 0.004
         }
       },
-      "qf": 0.042,
-      "r16": 0.121,
+      "qf": 0.061,
+      "r16": 0.138,
       "r32": 1.0,
-      "sf": 0.019
+      "sf": 0.02
     },
     "Iraq": {
       "avg_opponent_rank": 50.0,
@@ -1031,9 +1026,9 @@
       "sf": 0.0
     },
     "Ivory Coast": {
-      "avg_opponent_rank": 31.922984356197354,
-      "champion": 0.002,
-      "finalist": 0.015,
+      "avg_opponent_rank": 32.03136531365314,
+      "champion": 0.006,
+      "finalist": 0.016,
       "group_positions": {
         "1": 0.0,
         "2": 1.0,
@@ -1043,48 +1038,45 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Belgium": 0.003,
-          "Canada": 0.001,
+          "Belgium": 0.005,
           "Croatia": 0.001,
-          "France": 0.005,
+          "France": 0.004,
           "Germany": 0.001,
-          "Morocco": 0.002,
-          "Portugal": 0.001,
-          "Spain": 0.001
+          "Morocco": 0.001,
+          "Netherlands": 0.002,
+          "Portugal": 0.002
         },
         "quarter_final": {
-          "DR Congo": 0.005,
-          "Ecuador": 0.008,
-          "England": 0.071,
-          "Mexico": 0.047
+          "DR Congo": 0.004,
+          "Ecuador": 0.006,
+          "England": 0.065,
+          "Mexico": 0.041
         },
         "round_of_16": {
-          "Brazil": 0.247,
-          "Japan": 0.198
+          "Brazil": 0.254,
+          "Japan": 0.166
         },
         "round_of_32": {
           "Norway": 1.0
         },
         "semi_final": {
-          "Argentina": 0.015,
-          "Australia": 0.002,
+          "Argentina": 0.021,
+          "Australia": 0.001,
           "Cape Verde": 0.001,
           "Colombia": 0.012,
-          "Egypt": 0.003,
-          "Ghana": 0.001,
-          "Iran": 0.003,
-          "Switzerland": 0.006
+          "Iran": 0.002,
+          "Switzerland": 0.008
         }
       },
-      "qf": 0.043,
-      "r16": 0.131,
+      "qf": 0.045,
+      "r16": 0.116,
       "r32": 1.0,
-      "sf": 0.015
+      "sf": 0.016
     },
     "Japan": {
-      "avg_opponent_rank": 14.662988966900702,
-      "champion": 0.021,
-      "finalist": 0.059,
+      "avg_opponent_rank": 14.322480620155039,
+      "champion": 0.028,
+      "finalist": 0.067,
       "group_positions": {
         "1": 0.0,
         "2": 1.0,
@@ -1095,45 +1087,45 @@
       "matchup_frequencies": {
         "final": {
           "Austria": 0.001,
-          "Belgium": 0.008,
+          "Belgium": 0.01,
           "Canada": 0.001,
-          "Croatia": 0.003,
-          "France": 0.013,
-          "Germany": 0.004,
-          "Morocco": 0.002,
-          "Netherlands": 0.01,
-          "Portugal": 0.002,
-          "Spain": 0.01,
-          "USA": 0.005
+          "Croatia": 0.001,
+          "France": 0.012,
+          "Germany": 0.007,
+          "Morocco": 0.004,
+          "Netherlands": 0.008,
+          "Portugal": 0.009,
+          "Spain": 0.005,
+          "Sweden": 0.001,
+          "USA": 0.008
         },
         "quarter_final": {
-          "DR Congo": 0.02,
-          "Ecuador": 0.033,
-          "England": 0.151,
-          "Mexico": 0.076
+          "DR Congo": 0.014,
+          "Ecuador": 0.024,
+          "England": 0.15,
+          "Mexico": 0.072
         },
         "round_of_16": {
-          "Ivory Coast": 0.198,
-          "Norway": 0.236
+          "Ivory Coast": 0.166,
+          "Norway": 0.243
         },
         "round_of_32": {
           "Brazil": 1.0
         },
         "semi_final": {
-          "Argentina": 0.055,
-          "Australia": 0.014,
+          "Argentina": 0.046,
+          "Australia": 0.013,
           "Cape Verde": 0.001,
-          "Colombia": 0.037,
-          "Egypt": 0.003,
-          "Ghana": 0.001,
-          "Iran": 0.007,
-          "Switzerland": 0.022
+          "Colombia": 0.035,
+          "Egypt": 0.005,
+          "Iran": 0.006,
+          "Switzerland": 0.027
         }
       },
-      "qf": 0.14,
-      "r16": 0.28,
+      "qf": 0.133,
+      "r16": 0.26,
       "r32": 1.0,
-      "sf": 0.059
+      "sf": 0.067
     },
     "Jordan": {
       "avg_opponent_rank": 50.0,
@@ -1159,9 +1151,9 @@
       "sf": 0.0
     },
     "Mexico": {
-      "avg_opponent_rank": 21.35576923076923,
-      "champion": 0.025,
-      "finalist": 0.069,
+      "avg_opponent_rank": 21.287366548042705,
+      "champion": 0.027,
+      "finalist": 0.077,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
@@ -1171,53 +1163,48 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Algeria": 0.001,
-          "Austria": 0.001,
-          "Belgium": 0.013,
-          "Canada": 0.001,
-          "Croatia": 0.001,
-          "France": 0.01,
-          "Germany": 0.006,
+          "Austria": 0.002,
+          "Belgium": 0.007,
+          "Croatia": 0.008,
+          "France": 0.012,
+          "Germany": 0.004,
           "Morocco": 0.003,
-          "Netherlands": 0.002,
-          "Portugal": 0.01,
-          "Spain": 0.012,
-          "Sweden": 0.001,
-          "USA": 0.008
+          "Netherlands": 0.008,
+          "Portugal": 0.013,
+          "Spain": 0.014,
+          "USA": 0.006
         },
         "quarter_final": {
-          "Brazil": 0.135,
-          "Ivory Coast": 0.047,
-          "Japan": 0.076,
-          "Norway": 0.049
+          "Brazil": 0.134,
+          "Ivory Coast": 0.041,
+          "Japan": 0.072,
+          "Norway": 0.06
         },
         "round_of_16": {
-          "DR Congo": 0.109,
-          "England": 0.532
+          "DR Congo": 0.103,
+          "England": 0.578
         },
         "round_of_32": {
           "Ecuador": 1.0
         },
         "semi_final": {
-          "Argentina": 0.062,
-          "Australia": 0.017,
-          "Cape Verde": 0.001,
-          "Colombia": 0.052,
-          "Egypt": 0.007,
-          "Ghana": 0.001,
+          "Argentina": 0.052,
+          "Australia": 0.015,
+          "Colombia": 0.031,
+          "Egypt": 0.005,
           "Iran": 0.005,
-          "Switzerland": 0.025
+          "Switzerland": 0.022
         }
       },
-      "qf": 0.17,
+      "qf": 0.13,
       "r16": 0.307,
       "r32": 1.0,
-      "sf": 0.069
+      "sf": 0.077
     },
     "Morocco": {
-      "avg_opponent_rank": 16.83511995916284,
-      "champion": 0.034,
-      "finalist": 0.064,
+      "avg_opponent_rank": 17.358949416342412,
+      "champion": 0.035,
+      "finalist": 0.063,
       "group_positions": {
         "1": 0.0,
         "2": 1.0,
@@ -1227,52 +1214,49 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.012,
-          "Australia": 0.004,
-          "Brazil": 0.008,
-          "Colombia": 0.012,
-          "Ecuador": 0.001,
-          "Egypt": 0.002,
-          "England": 0.009,
-          "Iran": 0.002,
-          "Ivory Coast": 0.002,
-          "Japan": 0.002,
+          "Argentina": 0.016,
+          "Brazil": 0.009,
+          "Colombia": 0.008,
+          "England": 0.008,
+          "Iran": 0.001,
+          "Ivory Coast": 0.001,
+          "Japan": 0.004,
           "Mexico": 0.003,
-          "Norway": 0.002,
-          "Switzerland": 0.005
+          "Norway": 0.003,
+          "Switzerland": 0.01
         },
         "quarter_final": {
-          "France": 0.162,
-          "Germany": 0.078,
-          "Paraguay": 0.018,
-          "Sweden": 0.034
+          "France": 0.161,
+          "Germany": 0.092,
+          "Paraguay": 0.011,
+          "Sweden": 0.047
         },
         "round_of_16": {
-          "Canada": 0.409
+          "Canada": 0.453
         },
         "round_of_32": {
           "Netherlands": 1.0
         },
         "semi_final": {
           "Algeria": 0.002,
-          "Austria": 0.005,
-          "Belgium": 0.029,
-          "Bosnia and Herzegovina": 0.001,
-          "Croatia": 0.01,
-          "Portugal": 0.026,
-          "Spain": 0.04,
-          "USA": 0.016
+          "Austria": 0.004,
+          "Belgium": 0.033,
+          "Bosnia and Herzegovina": 0.003,
+          "Croatia": 0.018,
+          "Portugal": 0.029,
+          "Spain": 0.038,
+          "USA": 0.019
         }
       },
-      "qf": 0.129,
-      "r16": 0.292,
+      "qf": 0.146,
+      "r16": 0.311,
       "r32": 1.0,
-      "sf": 0.064
+      "sf": 0.063
     },
     "Netherlands": {
-      "avg_opponent_rank": 20.016457680250785,
-      "champion": 0.056,
-      "finalist": 0.124,
+      "avg_opponent_rank": 20.253568429890848,
+      "champion": 0.06,
+      "finalist": 0.109,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
@@ -1282,47 +1266,46 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.039,
-          "Australia": 0.007,
-          "Brazil": 0.006,
-          "Colombia": 0.016,
-          "DR Congo": 0.001,
+          "Argentina": 0.021,
+          "Australia": 0.005,
+          "Brazil": 0.013,
+          "Colombia": 0.018,
           "Ecuador": 0.001,
           "Egypt": 0.001,
-          "England": 0.028,
+          "England": 0.016,
           "Iran": 0.003,
-          "Japan": 0.01,
-          "Mexico": 0.002,
-          "Norway": 0.004,
-          "Switzerland": 0.006
+          "Ivory Coast": 0.002,
+          "Japan": 0.008,
+          "Mexico": 0.008,
+          "Norway": 0.006,
+          "Switzerland": 0.007
         },
         "quarter_final": {
-          "France": 0.253,
-          "Germany": 0.143,
-          "Paraguay": 0.02,
-          "Sweden": 0.055
+          "France": 0.211,
+          "Germany": 0.127,
+          "Paraguay": 0.021,
+          "Sweden": 0.062
         },
         "round_of_16": {
-          "Canada": 0.591
+          "Canada": 0.547
         },
         "round_of_32": {
           "Morocco": 1.0
         },
         "semi_final": {
-          "Algeria": 0.008,
-          "Austria": 0.005,
-          "Belgium": 0.063,
-          "Bosnia and Herzegovina": 0.001,
-          "Croatia": 0.031,
-          "Portugal": 0.034,
-          "Spain": 0.061,
-          "USA": 0.042
+          "Algeria": 0.006,
+          "Austria": 0.011,
+          "Belgium": 0.057,
+          "Croatia": 0.03,
+          "Portugal": 0.04,
+          "Spain": 0.04,
+          "USA": 0.023
         }
       },
-      "qf": 0.245,
-      "r16": 0.471,
+      "qf": 0.207,
+      "r16": 0.421,
       "r32": 1.0,
-      "sf": 0.124
+      "sf": 0.109
     },
     "New Zealand": {
       "avg_opponent_rank": 50.0,
@@ -1348,9 +1331,9 @@
       "sf": 0.0
     },
     "Norway": {
-      "avg_opponent_rank": 24.763354700854702,
-      "champion": 0.01,
-      "finalist": 0.024,
+      "avg_opponent_rank": 23.993440968718467,
+      "champion": 0.008,
+      "finalist": 0.034,
       "group_positions": {
         "1": 0.0,
         "2": 1.0,
@@ -1360,43 +1343,43 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Belgium": 0.002,
-          "Croatia": 0.001,
+          "Austria": 0.001,
+          "Belgium": 0.004,
+          "Croatia": 0.002,
           "France": 0.007,
-          "Germany": 0.002,
-          "Morocco": 0.002,
-          "Netherlands": 0.004,
+          "Morocco": 0.003,
+          "Netherlands": 0.006,
           "Portugal": 0.001,
-          "Spain": 0.004,
-          "USA": 0.001
+          "Spain": 0.005,
+          "Sweden": 0.001,
+          "USA": 0.004
         },
         "quarter_final": {
-          "DR Congo": 0.01,
-          "Ecuador": 0.028,
-          "England": 0.094,
-          "Mexico": 0.049
+          "DR Congo": 0.013,
+          "Ecuador": 0.025,
+          "England": 0.098,
+          "Mexico": 0.06
         },
         "round_of_16": {
-          "Brazil": 0.319,
-          "Japan": 0.236
+          "Brazil": 0.337,
+          "Japan": 0.243
         },
         "round_of_32": {
           "Ivory Coast": 1.0
         },
         "semi_final": {
-          "Argentina": 0.029,
-          "Australia": 0.008,
+          "Argentina": 0.04,
+          "Australia": 0.007,
           "Cape Verde": 0.001,
-          "Colombia": 0.016,
-          "Egypt": 0.002,
-          "Iran": 0.003,
-          "Switzerland": 0.009
+          "Colombia": 0.037,
+          "Iran": 0.004,
+          "Switzerland": 0.014
         }
       },
-      "qf": 0.068,
-      "r16": 0.181,
+      "qf": 0.103,
+      "r16": 0.196,
       "r32": 1.0,
-      "sf": 0.024
+      "sf": 0.034
     },
     "Panama": {
       "avg_opponent_rank": 50.0,
@@ -1422,9 +1405,9 @@
       "sf": 0.0
     },
     "Paraguay": {
-      "avg_opponent_rank": 14.610244988864142,
+      "avg_opponent_rank": 14.730998509687034,
       "champion": 0.0,
-      "finalist": 0.001,
+      "finalist": 0.003,
       "group_positions": {
         "1": 0.0,
         "2": 0.0,
@@ -1434,38 +1417,38 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Colombia": 0.001
+          "Colombia": 0.002,
+          "Iran": 0.001
         },
         "quarter_final": {
-          "Canada": 0.013,
-          "Morocco": 0.018,
-          "Netherlands": 0.02
+          "Canada": 0.017,
+          "Morocco": 0.011,
+          "Netherlands": 0.021
         },
         "round_of_16": {
-          "France": 0.193,
-          "Sweden": 0.069
+          "France": 0.189,
+          "Sweden": 0.07
         },
         "round_of_32": {
           "Germany": 1.0
         },
         "semi_final": {
-          "Algeria": 0.001,
           "Austria": 0.002,
-          "Belgium": 0.003,
+          "Belgium": 0.005,
           "Portugal": 0.003,
-          "Spain": 0.007,
-          "USA": 0.001
+          "Spain": 0.003,
+          "USA": 0.004
         }
       },
       "qf": 0.017,
-      "r16": 0.051,
+      "r16": 0.049,
       "r32": 1.0,
-      "sf": 0.001
+      "sf": 0.003
     },
     "Portugal": {
-      "avg_opponent_rank": 10.855959502991256,
+      "avg_opponent_rank": 10.76268115942029,
       "champion": 0.057,
-      "finalist": 0.077,
+      "finalist": 0.101,
       "group_positions": {
         "1": 0.0,
         "2": 1.0,
@@ -1475,47 +1458,45 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.016,
-          "Australia": 0.005,
-          "Brazil": 0.011,
-          "Colombia": 0.011,
+          "Argentina": 0.017,
+          "Australia": 0.002,
+          "Brazil": 0.016,
+          "Colombia": 0.014,
           "Ecuador": 0.001,
-          "Egypt": 0.003,
-          "England": 0.012,
-          "Ghana": 0.001,
-          "Ivory Coast": 0.001,
-          "Japan": 0.002,
-          "Mexico": 0.01,
+          "England": 0.016,
+          "Ivory Coast": 0.002,
+          "Japan": 0.009,
+          "Mexico": 0.013,
           "Norway": 0.001,
-          "Switzerland": 0.003
+          "Switzerland": 0.01
         },
         "quarter_final": {
-          "Algeria": 0.021,
-          "Belgium": 0.143,
-          "Bosnia and Herzegovina": 0.01,
-          "USA": 0.107
+          "Algeria": 0.023,
+          "Belgium": 0.149,
+          "Bosnia and Herzegovina": 0.013,
+          "USA": 0.114
         },
         "round_of_16": {
-          "Austria": 0.16,
-          "Spain": 0.404
+          "Austria": 0.134,
+          "Spain": 0.417
         },
         "round_of_32": {
           "Croatia": 1.0
         },
         "semi_final": {
-          "Canada": 0.01,
-          "France": 0.062,
-          "Germany": 0.023,
-          "Morocco": 0.026,
-          "Netherlands": 0.034,
+          "Canada": 0.009,
+          "France": 0.056,
+          "Germany": 0.027,
+          "Morocco": 0.029,
+          "Netherlands": 0.04,
           "Paraguay": 0.003,
-          "Sweden": 0.006
+          "Sweden": 0.015
         }
       },
-      "qf": 0.164,
-      "r16": 0.281,
+      "qf": 0.179,
+      "r16": 0.299,
       "r32": 1.0,
-      "sf": 0.077
+      "sf": 0.101
     },
     "Qatar": {
       "avg_opponent_rank": 50.0,
@@ -1658,9 +1639,9 @@
       "sf": 0.0
     },
     "Spain": {
-      "avg_opponent_rank": 15.687797728105533,
-      "champion": 0.088,
-      "finalist": 0.156,
+      "avg_opponent_rank": 15.742999616417338,
+      "champion": 0.09,
+      "finalist": 0.142,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
@@ -1670,52 +1651,52 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.042,
-          "Australia": 0.004,
+          "Argentina": 0.034,
+          "Australia": 0.002,
           "Brazil": 0.016,
-          "Colombia": 0.025,
-          "Ecuador": 0.002,
-          "Egypt": 0.001,
-          "England": 0.022,
-          "Iran": 0.004,
-          "Ivory Coast": 0.001,
-          "Japan": 0.01,
-          "Mexico": 0.012,
-          "Norway": 0.004,
+          "Cape Verde": 0.001,
+          "Colombia": 0.019,
+          "DR Congo": 0.001,
+          "Egypt": 0.002,
+          "England": 0.028,
+          "Iran": 0.002,
+          "Japan": 0.005,
+          "Mexico": 0.014,
+          "Norway": 0.005,
           "Switzerland": 0.013
         },
         "quarter_final": {
-          "Algeria": 0.049,
-          "Belgium": 0.226,
-          "Bosnia and Herzegovina": 0.019,
-          "USA": 0.146
+          "Algeria": 0.029,
+          "Belgium": 0.187,
+          "Bosnia and Herzegovina": 0.016,
+          "USA": 0.145
         },
         "round_of_16": {
-          "Croatia": 0.345,
-          "Portugal": 0.404
+          "Croatia": 0.335,
+          "Portugal": 0.417
         },
         "round_of_32": {
           "Austria": 1.0
         },
         "semi_final": {
-          "Canada": 0.014,
-          "France": 0.107,
-          "Germany": 0.029,
-          "Morocco": 0.04,
-          "Netherlands": 0.061,
-          "Paraguay": 0.007,
-          "Sweden": 0.012
+          "Canada": 0.017,
+          "France": 0.094,
+          "Germany": 0.037,
+          "Morocco": 0.038,
+          "Netherlands": 0.04,
+          "Paraguay": 0.003,
+          "Sweden": 0.01
         }
       },
-      "qf": 0.27,
-      "r16": 0.44,
+      "qf": 0.239,
+      "r16": 0.377,
       "r32": 1.0,
-      "sf": 0.156
+      "sf": 0.142
     },
     "Sweden": {
-      "avg_opponent_rank": 8.337448559670781,
-      "champion": 0.007,
-      "finalist": 0.019,
+      "avg_opponent_rank": 8.482438701126574,
+      "champion": 0.006,
+      "finalist": 0.015,
       "group_positions": {
         "1": 0.0,
         "2": 0.0,
@@ -1725,46 +1706,47 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.003,
-          "Australia": 0.002,
-          "Brazil": 0.004,
-          "Colombia": 0.003,
-          "Egypt": 0.001,
-          "England": 0.005,
-          "Mexico": 0.001
+          "Argentina": 0.004,
+          "Brazil": 0.002,
+          "Colombia": 0.001,
+          "England": 0.003,
+          "Iran": 0.002,
+          "Japan": 0.001,
+          "Norway": 0.001,
+          "Switzerland": 0.001
         },
         "quarter_final": {
-          "Canada": 0.027,
-          "Morocco": 0.034,
-          "Netherlands": 0.055
+          "Canada": 0.028,
+          "Morocco": 0.047,
+          "Netherlands": 0.062
         },
         "round_of_16": {
-          "Germany": 0.177,
-          "Paraguay": 0.069
+          "Germany": 0.19,
+          "Paraguay": 0.07
         },
         "round_of_32": {
           "France": 1.0
         },
         "semi_final": {
-          "Algeria": 0.002,
+          "Algeria": 0.001,
           "Austria": 0.001,
-          "Belgium": 0.011,
+          "Belgium": 0.012,
           "Bosnia and Herzegovina": 0.001,
-          "Croatia": 0.006,
-          "Portugal": 0.006,
-          "Spain": 0.012,
-          "USA": 0.009
+          "Croatia": 0.008,
+          "Portugal": 0.015,
+          "Spain": 0.01,
+          "USA": 0.008
         }
       },
-      "qf": 0.048,
-      "r16": 0.116,
+      "qf": 0.056,
+      "r16": 0.137,
       "r32": 1.0,
-      "sf": 0.019
+      "sf": 0.015
     },
     "Switzerland": {
-      "avg_opponent_rank": 17.538494809688583,
-      "champion": 0.029,
-      "finalist": 0.077,
+      "avg_opponent_rank": 17.632950530035334,
+      "champion": 0.03,
+      "finalist": 0.079,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
@@ -1775,44 +1757,46 @@
       "matchup_frequencies": {
         "final": {
           "Austria": 0.001,
-          "Belgium": 0.008,
-          "Canada": 0.001,
+          "Belgium": 0.006,
+          "Canada": 0.002,
           "Croatia": 0.003,
-          "France": 0.02,
-          "Germany": 0.01,
-          "Morocco": 0.005,
-          "Netherlands": 0.006,
-          "Portugal": 0.003,
+          "France": 0.017,
+          "Germany": 0.002,
+          "Morocco": 0.01,
+          "Netherlands": 0.007,
+          "Portugal": 0.01,
           "Spain": 0.013,
+          "Sweden": 0.001,
           "USA": 0.007
         },
         "quarter_final": {
-          "Argentina": 0.217,
-          "Australia": 0.076,
-          "Cape Verde": 0.008,
-          "Egypt": 0.039
+          "Argentina": 0.195,
+          "Australia": 0.065,
+          "Cape Verde": 0.015,
+          "Egypt": 0.037
         },
         "round_of_16": {
-          "Colombia": 0.565,
-          "Ghana": 0.099
+          "Colombia": 0.542,
+          "Ghana": 0.082
         },
         "round_of_32": {
           "Iran": 1.0
         },
         "semi_final": {
-          "Brazil": 0.032,
-          "Ecuador": 0.002,
-          "England": 0.058,
-          "Ivory Coast": 0.006,
-          "Japan": 0.022,
-          "Mexico": 0.025,
-          "Norway": 0.009
+          "Brazil": 0.037,
+          "DR Congo": 0.002,
+          "Ecuador": 0.004,
+          "England": 0.05,
+          "Ivory Coast": 0.008,
+          "Japan": 0.027,
+          "Mexico": 0.022,
+          "Norway": 0.014
         }
       },
-      "qf": 0.154,
-      "r16": 0.34,
+      "qf": 0.164,
+      "r16": 0.312,
       "r32": 1.0,
-      "sf": 0.077
+      "sf": 0.079
     },
     "Tunisia": {
       "avg_opponent_rank": 50.0,
@@ -1861,9 +1845,9 @@
       "sf": 0.0
     },
     "USA": {
-      "avg_opponent_rank": 37.86288032454361,
-      "champion": 0.04,
-      "finalist": 0.073,
+      "avg_opponent_rank": 37.50368852459017,
+      "champion": 0.037,
+      "finalist": 0.065,
       "group_positions": {
         "1": 1.0,
         "2": 0.0,
@@ -1873,45 +1857,45 @@
       "group_qual": 1.0,
       "matchup_frequencies": {
         "final": {
-          "Argentina": 0.02,
+          "Argentina": 0.013,
           "Australia": 0.001,
-          "Brazil": 0.011,
-          "Colombia": 0.008,
-          "Egypt": 0.002,
-          "England": 0.009,
+          "Brazil": 0.009,
+          "Colombia": 0.009,
+          "Egypt": 0.001,
+          "England": 0.006,
           "Iran": 0.001,
-          "Japan": 0.005,
-          "Mexico": 0.008,
-          "Norway": 0.001,
+          "Japan": 0.008,
+          "Mexico": 0.006,
+          "Norway": 0.004,
           "Switzerland": 0.007
         },
         "quarter_final": {
-          "Austria": 0.035,
-          "Croatia": 0.077,
-          "Portugal": 0.107,
-          "Spain": 0.146
+          "Austria": 0.034,
+          "Croatia": 0.082,
+          "Portugal": 0.114,
+          "Spain": 0.145
         },
         "round_of_16": {
-          "Algeria": 0.221,
-          "Belgium": 0.571
+          "Algeria": 0.174,
+          "Belgium": 0.601
         },
         "round_of_32": {
           "Bosnia and Herzegovina": 1.0
         },
         "semi_final": {
           "Canada": 0.008,
-          "France": 0.061,
-          "Germany": 0.017,
-          "Morocco": 0.016,
-          "Netherlands": 0.042,
-          "Paraguay": 0.001,
-          "Sweden": 0.009
+          "France": 0.057,
+          "Germany": 0.026,
+          "Morocco": 0.019,
+          "Netherlands": 0.023,
+          "Paraguay": 0.004,
+          "Sweden": 0.008
         }
       },
-      "qf": 0.154,
-      "r16": 0.365,
+      "qf": 0.145,
+      "r16": 0.375,
       "r32": 1.0,
-      "sf": 0.073
+      "sf": 0.065
     },
     "Uruguay": {
       "avg_opponent_rank": 50.0,

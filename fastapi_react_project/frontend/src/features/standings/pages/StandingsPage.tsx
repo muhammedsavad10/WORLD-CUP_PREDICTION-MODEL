@@ -18,16 +18,19 @@ const ISO_2_CODES: Record<string, string> = {
 };
 
 const getFlagUrl = (teamName: string) => {
-  const code = ISO_2_CODES[teamName] || ISO_2_CODES[teamName.trim()] || 'un';
+  if (!teamName) return 'https://flagcdn.com/w40/un.png';
+  const trimmed = teamName.trim();
+  const code = ISO_2_CODES[teamName] || ISO_2_CODES[trimmed] || 'un';
   return `https://flagcdn.com/w40/${code}.png`;
 };
+
+import { apiFetch, API_BASE_URL } from '../../../lib/api';
 
 export const StandingsPage: React.FC = () => {
   const standingsQuery = useQuery({
     queryKey: ['standings'],
-    queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/v1/public/matches/standings');
-      if (!res.ok) throw new Error('Failed to load standings');
+    queryFn: async ({ signal }) => {
+      const res = await apiFetch('/api/v1/public/matches/standings', { signal });
       return res.json();
     }
   });
@@ -49,7 +52,7 @@ export const StandingsPage: React.FC = () => {
       <div className="flex h-[60vh] w-full flex-col items-center justify-center gap-4">
         <AlertCircle className="w-12 h-12 text-rose-500" />
         <h3 className="text-lg font-bold text-slate-200">Error calculating standings</h3>
-        <p className="text-slate-400 text-sm">Please verify the FastAPI backend is running.</p>
+        <p className="text-slate-400 text-sm">Please verify the FastAPI backend is running on {API_BASE_URL}.</p>
       </div>
     );
   }

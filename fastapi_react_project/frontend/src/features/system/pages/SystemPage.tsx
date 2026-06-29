@@ -1,13 +1,13 @@
 import React from 'react';
 import { useQuery, useMutation } from '@tanstack/react-query';
 import { Loader2, AlertCircle, Database, ShieldAlert, Cpu, Heart } from 'lucide-react';
+import { apiFetch, API_BASE_URL } from '../../../lib/api';
 
 export const SystemPage: React.FC = () => {
   const { data: systemResponse, isLoading, isError, refetch } = useQuery({
     queryKey: ['system_status'],
-    queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/v1/public/system/status');
-      if (!res.ok) throw new Error('System status error');
+    queryFn: async ({ signal }) => {
+      const res = await apiFetch('/api/v1/public/system/status', { signal });
       return res.json();
     }
   });
@@ -15,7 +15,7 @@ export const SystemPage: React.FC = () => {
   // Admin Mutations
   const flushRamCache = useMutation({
     mutationFn: async () => {
-      const res = await fetch('http://localhost:8000/api/v1/admin/cache/flush-repository', { method: 'POST' });
+      const res = await apiFetch('/api/v1/admin/cache/flush-repository', { method: 'POST' });
       return res.json();
     },
     onSuccess: (data) => {
@@ -25,7 +25,7 @@ export const SystemPage: React.FC = () => {
 
   const flushSqlCache = useMutation({
     mutationFn: async () => {
-      const res = await fetch('http://localhost:8000/api/v1/admin/cache/flush-db-cache', { method: 'POST' });
+      const res = await apiFetch('/api/v1/admin/cache/flush-db-cache', { method: 'POST' });
       return res.json();
     },
     onSuccess: (data) => {
@@ -35,7 +35,7 @@ export const SystemPage: React.FC = () => {
 
   const rebuildSim = useMutation({
     mutationFn: async () => {
-      const res = await fetch('http://localhost:8000/api/v1/admin/simulation/rebuild', { method: 'POST' });
+      const res = await apiFetch('/api/v1/admin/simulation/rebuild', { method: 'POST' });
       return res.json();
     },
     onSuccess: (data) => {
@@ -57,7 +57,7 @@ export const SystemPage: React.FC = () => {
       <div className="flex h-[60vh] w-full flex-col items-center justify-center gap-4">
         <AlertCircle className="w-12 h-12 text-rose-500" />
         <h3 className="text-lg font-bold text-slate-200">System Connection Failed</h3>
-        <p className="text-slate-400 text-sm">Please verify the FastAPI backend is running on http://localhost:8000.</p>
+        <p className="text-slate-400 text-sm">Please verify the FastAPI backend is running on {API_BASE_URL}.</p>
         <button 
           onClick={() => refetch()} 
           className="mt-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 border border-slate-800 rounded-lg text-sm text-slate-100 font-bold transition-all"

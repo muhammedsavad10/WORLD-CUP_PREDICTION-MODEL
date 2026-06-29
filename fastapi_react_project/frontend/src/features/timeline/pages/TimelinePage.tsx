@@ -5,13 +5,13 @@ import {
   CartesianGrid, Tooltip, Legend 
 } from 'recharts';
 import { Loader2, AlertCircle, TrendingUp } from 'lucide-react';
+import { apiFetch } from '../../../lib/api';
 
 export const TimelinePage: React.FC = () => {
   const { data: timelineResponse, isLoading, isError } = useQuery({
     queryKey: ['odds_timeline'],
-    queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/v1/public/simulation/timeline');
-      if (!res.ok) throw new Error('Timeline API error');
+    queryFn: async ({ signal }) => {
+      const res = await apiFetch('/api/v1/public/simulation/timeline', { signal });
       return res.json();
     }
   });

@@ -6,12 +6,13 @@ import {
 } from 'recharts';
 import { Loader2, AlertCircle, BarChart3, Target, ShieldCheck } from 'lucide-react';
 
+import { apiFetch } from '../../../lib/api';
+
 export const AnalyticsPage: React.FC = () => {
   const { data: analyticsResponse, isLoading, isError } = useQuery({
     queryKey: ['model_analytics'],
-    queryFn: async () => {
-      const res = await fetch('http://localhost:8000/api/v1/public/system/analytics');
-      if (!res.ok) throw new Error('Analytics API error');
+    queryFn: async ({ signal }) => {
+      const res = await apiFetch('/api/v1/public/system/analytics', { signal });
       return res.json();
     }
   });

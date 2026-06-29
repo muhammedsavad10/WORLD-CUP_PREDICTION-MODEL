@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
@@ -7,44 +7,82 @@ import {
   Sun, Moon, Sparkles, ChevronLeft, ChevronRight
 } from 'lucide-react';
 import { useUIStore } from '../store/uiStore';
+import { getWebSocketUrl } from '../lib/api';
 
 export const AppLayout: React.FC = () => {
   const { theme, setTheme, sidebarOpen, toggleSidebar, lastWsEvent, setLastWsEvent } = useUIStore();
   const location = useLocation();
+  const [wsStatus, setWsStatus] = useState<'connecting' | 'connected' | 'disconnected'>('connecting');
 
   // Setup WebSocket connection for live events notifications
   useEffect(() => {
-    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-    const wsUrl = `${protocol}//localhost:8000/api/v1/public/ws/live`;
-    let ws: WebSocket;
+    let ws: WebSocket | null = null;
+    let reconnectTimeoutId: any = null;
+    let pingIntervalId: any = null;
+    let reconnectDelay = 1000;
+    const maxReconnectDelay = 30000;
+    let isMounted = true;
+    const wsUrl = getWebSocketUrl('/api/v1/public/ws/live');
 
     function connect() {
-      ws = new WebSocket(wsUrl);
-      ws.onmessage = (event) => {
-        if (event.data !== 'pong') {
-          setLastWsEvent(event.data);
-          setTimeout(() => {
-            setLastWsEvent(null);
-          }, 5000);
+      if (ws) {
+        try {
+          ws.close();
+        } catch (e) {
+          // ignore
         }
-      };
+      }
+
+      setWsStatus('connecting');
+      ws = new WebSocket(wsUrl);
+
       ws.onopen = () => {
-        const pingInterval = setInterval(() => {
-          if (ws.readyState === WebSocket.OPEN) {
+        if (!isMounted) return;
+        setWsStatus('connected');
+        reconnectDelay = 1000; // Reset reconnection delay on successful handshake
+
+        pingIntervalId = setInterval(() => {
+          if (ws && ws.readyState === WebSocket.OPEN) {
             ws.send('ping');
           }
         }, 30000);
-        ws.addEventListener('close', () => clearInterval(pingInterval));
       };
+
+      ws.onmessage = (event) => {
+        if (!isMounted) return;
+        if (event.data !== 'pong') {
+          setLastWsEvent(event.data);
+          setTimeout(() => {
+            if (isMounted) setLastWsEvent(null);
+          }, 5000);
+        }
+      };
+
       ws.onclose = () => {
-        setTimeout(connect, 3000);
+        if (pingIntervalId) {
+          clearInterval(pingIntervalId);
+        }
+        if (!isMounted) return;
+        setWsStatus('disconnected');
+
+        reconnectTimeoutId = setTimeout(() => {
+          if (isMounted) connect();
+        }, reconnectDelay);
+        reconnectDelay = Math.min(reconnectDelay * 2, maxReconnectDelay);
+      };
+
+      ws.onerror = () => {
+        if (ws) ws.close();
       };
     }
 
     connect();
 
     return () => {
+      isMounted = false;
       if (ws) ws.close();
+      if (reconnectTimeoutId) clearTimeout(reconnectTimeoutId);
+      if (pingIntervalId) clearInterval(pingIntervalId);
     };
   }, [setLastWsEvent]);
 
@@ -178,9 +216,25 @@ export const AppLayout: React.FC = () => {
             </button>
 
             {/* Connection Indicator */}
-            <div className="flex items-center gap-2 border border-white/5 bg-slate-950/25 px-4 py-2 rounded-full text-xs font-bold text-slate-300">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-sm shadow-emerald-500/80 animate-pulse"></span>
-              <span className="text-slate-400 hidden lg:inline">LIVE STATUS</span>
+            <div className="flex items-center gap-2 border border-white/5 bg-slate-950/25 px-4 py-2 rounded-full text-[10px] font-mono font-bold text-slate-300">
+              {wsStatus === 'connected' && (
+                <>
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-sm shadow-emerald-500/80 animate-pulse"></span>
+                  <span className="text-emerald-400 hidden lg:inline">TELEMETRY ACTIVE</span>
+                </>
+              )}
+              {wsStatus === 'connecting' && (
+                <>
+                  <span className="w-2 h-2 rounded-full bg-yellow-500 shadow-sm shadow-yellow-500/80 animate-spin"></span>
+                  <span className="text-yellow-400 hidden lg:inline">CONNECTING...</span>
+                </>
+              )}
+              {wsStatus === 'disconnected' && (
+                <>
+                  <span className="w-2 h-2 rounded-full bg-red-500 shadow-sm shadow-red-500/80"></span>
+                  <span className="text-red-400 hidden lg:inline">TELEMETRY OFFLINE</span>
+                </>
+              )}
             </div>
           </div>
         </header>
