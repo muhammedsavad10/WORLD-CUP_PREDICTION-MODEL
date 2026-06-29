@@ -8,10 +8,10 @@ import logging
 import numpy as np
 import math
 
-from worldcup_engine.const import WCGroups, data_dir_path
-from worldcup_engine.preprocess import load_data
-import worldcup_engine.preprocess as preprocess
-from worldcup_engine.tournament_simulator import TournamentSimulator
+from .const import WCGroups, data_dir_path
+from .preprocess import load_data
+from . import preprocess
+from .tournament_simulator import TournamentSimulator
 
 # 1. Structured Ingest Logging
 logging.basicConfig(

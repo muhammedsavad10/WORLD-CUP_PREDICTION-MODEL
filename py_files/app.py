@@ -6,19 +6,17 @@ import numpy as np
 import pandas as pd
 import math
 
-from const import WCGroups, data_dir_path
-from preprocess import load_data, get_match_features
-import preprocess
-from tournament_simulator import TournamentSimulator
-import importlib
-import reasoning_agent
-importlib.reload(reasoning_agent)
-from reasoning_agent import generate_match_analysis, MatchState, get_match_state, MatchAnalysisContext
-from calibration import get_calibration_metrics
-from news_provider import fetch_live_team_news
-import live_results_manager
-from transparency_explainer import generate_recalibration_explanation
-import probability_audit
+from worldcup_engine.const import WCGroups, data_dir_path
+from worldcup_engine.preprocess import load_data, get_match_features
+import worldcup_engine.preprocess as preprocess
+from worldcup_engine.tournament_simulator import TournamentSimulator
+import worldcup_engine.reasoning_agent as reasoning_agent
+from worldcup_engine.reasoning_agent import generate_match_analysis, MatchState, get_match_state, MatchAnalysisContext
+from worldcup_engine.calibration import get_calibration_metrics
+from worldcup_engine.news_provider import fetch_live_team_news
+import worldcup_engine.live_results_manager as live_results_manager
+from worldcup_engine.transparency_explainer import generate_recalibration_explanation
+import worldcup_engine.probability_audit as probability_audit
 import json
 import os
 
