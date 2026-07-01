@@ -3,6 +3,13 @@ name: Update World Cup Results
 on:
   schedule:
     - cron: '0 */6 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - 'py_files/**'
+      - '.github/workflows/**'
+      - 'src/**'
   workflow_dispatch:
 
 concurrency:

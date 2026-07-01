@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T07:13:10+05:30",
+  "last_updated": "2026-07-01T10:15:28+05:30",
   "matches": [
     {
       "away_score": 0,
@@ -803,6 +803,72 @@
       "match_number": 73,
       "stage": "round_of_32",
       "winner": "Canada"
+    },
+    {
+      "away_score": 1,
+      "away_team": "Paraguay",
+      "date": "2026-06-29",
+      "group": null,
+      "home_score": 1,
+      "home_team": "Germany",
+      "match_number": 74,
+      "stage": "round_of_32",
+      "winner": "Paraguay"
+    },
+    {
+      "away_score": 1,
+      "away_team": "Morocco",
+      "date": "2026-06-29",
+      "group": null,
+      "home_score": 1,
+      "home_team": "Netherlands",
+      "match_number": 75,
+      "stage": "round_of_32",
+      "winner": "Morocco"
+    },
+    {
+      "away_score": 1,
+      "away_team": "Japan",
+      "date": "2026-06-29",
+      "group": null,
+      "home_score": 2,
+      "home_team": "Brazil",
+      "match_number": 76,
+      "stage": "round_of_32",
+      "winner": "Brazil"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Sweden",
+      "date": "2026-06-30",
+      "group": null,
+      "home_score": 3,
+      "home_team": "France",
+      "match_number": 77,
+      "stage": "round_of_32",
+      "winner": "France"
+    },
+    {
+      "away_score": 2,
+      "away_team": "Norway",
+      "date": "2026-06-30",
+      "group": null,
+      "home_score": 1,
+      "home_team": "Ivory Coast",
+      "match_number": 78,
+      "stage": "round_of_32",
+      "winner": "Norway"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Ecuador",
+      "date": "2026-06-30",
+      "group": null,
+      "home_score": 2,
+      "home_team": "Mexico",
+      "match_number": 79,
+      "stage": "round_of_32",
+      "winner": "Mexico"
     }
   ]
 }
