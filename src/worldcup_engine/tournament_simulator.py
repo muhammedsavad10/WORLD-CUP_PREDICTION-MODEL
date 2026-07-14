@@ -478,12 +478,13 @@ class TournamentSimulator:
             # Record progressions
             for stage, winners in round_results.items():
                 for team in winners:
-                    if stage == 'round_of_16':
+                    if stage == 'round_of_32':
                         metrics[team]["r16"] += 1
-                    elif stage == 'quarter_final':
+                    elif stage == 'round_of_16':
                         metrics[team]["qf"] += 1
-                    elif stage == 'semi_final':
+                    elif stage == 'quarter_final':
                         metrics[team]["sf"] += 1
+                    elif stage == 'semi_final':
                         metrics[team]["finalist"] += 1
                     elif stage == 'final':
                         pass
