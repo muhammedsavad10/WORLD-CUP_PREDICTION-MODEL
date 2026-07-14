@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T10:15:28+05:30",
+  "last_updated": "2026-07-14T23:47:15+05:30",
   "matches": [
     {
       "away_score": 0,
@@ -869,6 +869,248 @@
       "match_number": 79,
       "stage": "round_of_32",
       "winner": "Mexico"
+    },
+    {
+      "away_score": 1,
+      "away_team": "DR Congo",
+      "date": "2026-07-01",
+      "group": null,
+      "home_score": 2,
+      "home_team": "England",
+      "match_number": 80,
+      "stage": "round_of_32",
+      "winner": "England"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Bosnia and Herzegovina",
+      "date": "2026-07-01",
+      "group": null,
+      "home_score": 2,
+      "home_team": "USA",
+      "match_number": 81,
+      "stage": "round_of_32",
+      "winner": "USA"
+    },
+    {
+      "away_score": 2,
+      "away_team": "Algeria",
+      "date": "2026-07-01",
+      "group": null,
+      "home_score": 3,
+      "home_team": "Belgium",
+      "match_number": 82,
+      "stage": "round_of_32",
+      "winner": "Belgium"
+    },
+    {
+      "away_score": 1,
+      "away_team": "Croatia",
+      "date": "2026-07-02",
+      "group": null,
+      "home_score": 2,
+      "home_team": "Portugal",
+      "match_number": 83,
+      "stage": "round_of_32",
+      "winner": "Portugal"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Austria",
+      "date": "2026-07-02",
+      "group": null,
+      "home_score": 2,
+      "home_team": "Spain",
+      "match_number": 84,
+      "stage": "round_of_32",
+      "winner": "Spain"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Iran",
+      "date": "2026-07-02",
+      "group": null,
+      "home_score": 1,
+      "home_team": "Switzerland",
+      "match_number": 85,
+      "stage": "round_of_32",
+      "winner": "Switzerland"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Cape Verde",
+      "date": "2026-07-03",
+      "group": null,
+      "home_score": 3,
+      "home_team": "Argentina",
+      "match_number": 86,
+      "stage": "round_of_32",
+      "winner": "Argentina"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Ghana",
+      "date": "2026-07-03",
+      "group": null,
+      "home_score": 2,
+      "home_team": "Colombia",
+      "match_number": 87,
+      "stage": "round_of_32",
+      "winner": "Colombia"
+    },
+    {
+      "away_score": 2,
+      "away_team": "Egypt",
+      "date": "2026-07-03",
+      "group": null,
+      "home_score": 1,
+      "home_team": "Australia",
+      "match_number": 88,
+      "stage": "round_of_32",
+      "winner": "Egypt"
+    },
+    {
+      "away_score": 2,
+      "away_team": "France",
+      "date": "2026-07-04",
+      "group": null,
+      "home_score": 0,
+      "home_team": "Paraguay",
+      "match_number": 89,
+      "stage": "round_of_16",
+      "winner": "France"
+    },
+    {
+      "away_score": 1,
+      "away_team": "Morocco",
+      "date": "2026-07-04",
+      "group": null,
+      "home_score": 0,
+      "home_team": "Canada",
+      "match_number": 90,
+      "stage": "round_of_16",
+      "winner": "Morocco"
+    },
+    {
+      "away_score": 2,
+      "away_team": "Norway",
+      "date": "2026-07-05",
+      "group": null,
+      "home_score": 1,
+      "home_team": "Brazil",
+      "match_number": 91,
+      "stage": "round_of_16",
+      "winner": "Norway"
+    },
+    {
+      "away_score": 2,
+      "away_team": "England",
+      "date": "2026-07-05",
+      "group": null,
+      "home_score": 0,
+      "home_team": "Mexico",
+      "match_number": 92,
+      "stage": "round_of_16",
+      "winner": "England"
+    },
+    {
+      "away_score": 2,
+      "away_team": "Spain",
+      "date": "2026-07-06",
+      "group": null,
+      "home_score": 1,
+      "home_team": "Portugal",
+      "match_number": 93,
+      "stage": "round_of_16",
+      "winner": "Spain"
+    },
+    {
+      "away_score": 2,
+      "away_team": "Belgium",
+      "date": "2026-07-06",
+      "group": null,
+      "home_score": 1,
+      "home_team": "USA",
+      "match_number": 94,
+      "stage": "round_of_16",
+      "winner": "Belgium"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Egypt",
+      "date": "2026-07-07",
+      "group": null,
+      "home_score": 2,
+      "home_team": "Argentina",
+      "match_number": 95,
+      "stage": "round_of_16",
+      "winner": "Argentina"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Colombia",
+      "date": "2026-07-07",
+      "group": null,
+      "home_score": 1,
+      "home_team": "Switzerland",
+      "match_number": 96,
+      "stage": "round_of_16",
+      "winner": "Switzerland"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Morocco",
+      "date": "2026-07-09",
+      "group": null,
+      "home_score": 2,
+      "home_team": "France",
+      "match_number": 97,
+      "stage": "quarter_final",
+      "winner": "France"
+    },
+    {
+      "away_score": 1,
+      "away_team": "Belgium",
+      "date": "2026-07-10",
+      "group": null,
+      "home_score": 2,
+      "home_team": "Spain",
+      "match_number": 98,
+      "stage": "quarter_final",
+      "winner": "Spain"
+    },
+    {
+      "away_score": 2,
+      "away_team": "England",
+      "date": "2026-07-11",
+      "group": null,
+      "home_score": 1,
+      "home_team": "Norway",
+      "match_number": 99,
+      "stage": "quarter_final",
+      "winner": "England"
+    },
+    {
+      "away_score": 1,
+      "away_team": "Switzerland",
+      "date": "2026-07-12",
+      "group": null,
+      "home_score": 3,
+      "home_team": "Argentina",
+      "match_number": 100,
+      "stage": "quarter_final",
+      "winner": "Argentina"
+    },
+    {
+      "away_score": 0,
+      "away_team": "Spain",
+      "date": "2026-07-14",
+      "group": null,
+      "home_score": 1,
+      "home_team": "France",
+      "match_number": 101,
+      "stage": "semi_final",
+      "winner": "France"
     }
   ]
 }
