@@ -350,8 +350,9 @@ tab1, tab2, tab3, tab4 = st.tabs([
 ])
 
 def parse_match_label(label):
-    # Parses format: "Argentina(0.68) vs. Japan(0.32)"
-    parts = label.split(" vs. ")
+    # Parses format: "Argentina(0.68) vs. Japan(0.32)" or "Argentina(0.68) vs. Japan(0.32) ✅"
+    clean_label = label.replace(" ✅", "").replace(" ❌", "")
+    parts = clean_label.split(" vs. ")
     team1_str = parts[0]
     team2_str = parts[1]
     
@@ -368,6 +369,12 @@ def get_winner_and_loser(label):
     t1_flag = FLAGS.get(t1_name, '🏳️')
     t2_flag = FLAGS.get(t2_name, '🏳️')
     
+    emoji = ""
+    if "✅" in label:
+        emoji = "✅"
+    elif "❌" in label:
+        emoji = "❌"
+        
     if t1_prob > t2_prob:
         winner_name, winner_flag = t1_name, t1_flag
         loser_name, loser_flag = t2_name, t2_flag
@@ -375,7 +382,7 @@ def get_winner_and_loser(label):
         winner_name, winner_flag = t2_name, t2_flag
         loser_name, loser_flag = t1_name, t1_flag
         
-    return loser_flag, loser_name, winner_name, winner_flag
+    return loser_flag, loser_name, winner_name, winner_flag, emoji
 
 @st.dialog("Match Tactical Analytics Breakdown")
 def render_completed_match_evidence(context, state):
@@ -701,13 +708,15 @@ if 'simulated_labels' in st.session_state:
         })
 
 def make_html_match_card(label):
-    loser_flag, loser_name, winner_name, winner_flag = get_winner_and_loser(label)
+    loser_flag, loser_name, winner_name, winner_flag, emoji = get_winner_and_loser(label)
+    
+    emoji_html = f'<span style="font-size: 0.9em; margin-left: 5px;" title="Prediction Status">{emoji}</span>' if emoji else ''
     
     card_html = f'''
     <a href="?selected_match={label}" target="_self" style="text-decoration: none; color: inherit; display: block; margin: 8px 0;">
         <div class="match-card-btn" style="display: flex; justify-content: space-between; align-items: center;">
             <span style="font-size: 1.15em; display: flex; align-items: center; gap: 5px;">{loser_flag} <span style="font-weight: 300; font-size: 0.85em; color: #cbd5e0;">{loser_name}</span></span>
-            <span style="color: #FFD700; font-size: 1.1em; font-weight: bold; margin: 0 5px;">➔</span>
+            <span style="color: #FFD700; font-size: 1.1em; font-weight: bold; margin: 0 5px;">➔{emoji_html}</span>
             <span style="font-size: 1.15em; display: flex; align-items: center; gap: 5px;"><span>{winner_name}</span> {winner_flag}</span>
         </div>
     </a>

@@ -314,14 +314,21 @@ class TournamentSimulator:
             if completed_lookup:
                 match_record = completed_lookup.get(match_id)
                 
+            status_emoji = ""
+            pred_winner, pred_win_prob = self.predictWinner(team1, team2, dateOfMatch, stage)
+            
             if match_record is not None:
                 winner = match_record.get("winner")
                 if winner not in (team1, team2):
-                    winner, win_prob = self.predictWinner(team1, team2, dateOfMatch, stage)
+                    winner, win_prob = pred_winner, pred_win_prob
                 else:
                     win_prob = 1.0
+                    if winner == pred_winner:
+                        status_emoji = "✅"
+                    else:
+                        status_emoji = "❌"
             else:
-                winner, win_prob = self.predictWinner(team1, team2, dateOfMatch, stage)
+                winner, win_prob = pred_winner, pred_win_prob
                 
             loser = team2 if winner == team1 else team1
             
@@ -333,7 +340,10 @@ class TournamentSimulator:
             t1_prob = win_prob if winner == team1 else 1 - win_prob
             t2_prob = 1 - t1_prob
             
-            labels.append(f"{team1}({np.round(t1_prob,2)}) vs. {team2}({np.round(t2_prob,2)})")
+            label = f"{team1}({np.round(t1_prob,2)}) vs. {team2}({np.round(t2_prob,2)})"
+            if status_emoji:
+                label += f" {status_emoji}"
+            labels.append(label)
             odds.append([t1_prob, t2_prob])
             
         return round_results, labels, odds
