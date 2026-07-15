@@ -45,7 +45,7 @@ def get_calibration_metrics(t1_name, t2_name, t1_prob, t2_prob, match_record, ba
     else:
         pred_winner = "Draw"
         
-    is_correct = "Correct" if pred_winner == actual_winner else "Incorrect"
+    is_correct = "✅ Correct" if pred_winner == actual_winner else "❌ Incorrect"
     
     # Upset level
     fav_prob = max(t1_prob, t2_prob)
